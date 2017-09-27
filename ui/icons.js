@@ -6,6 +6,7 @@ module.exports = {
     'justify' : require('../assets/icons/align-justify.svg')
   },
   'background': require('../assets/icons/background.svg'),
+  'blockBackground': require('../assets/icons/blockBackground.svg'),
   'blockquote': require('../assets/icons/blockquote.svg'),
   'bold'      : require('../assets/icons/bold.svg'),
   'clean'     : require('../assets/icons/clean.svg'),

@@ -9,6 +9,7 @@ import Header from './formats/header';
 import List, { ListItem } from './formats/list';
 
 import { BackgroundClass, BackgroundStyle } from './formats/background';
+import { BlockBackgroundClass, BlockBackgroundStyle } from './formats/blockBackground';
 import { ColorClass, ColorStyle } from './formats/color';
 import { FontClass, FontStyle } from './formats/font';
 import { SizeClass, SizeStyle } from './formats/size';
@@ -44,6 +45,7 @@ Quill.register({
 
   'attributors/class/align': AlignClass,
   'attributors/class/background': BackgroundClass,
+  'attributors/class/blockBackground': BlockBackgroundClass,
   'attributors/class/color': ColorClass,
   'attributors/class/direction': DirectionClass,
   'attributors/class/font': FontClass,
@@ -51,6 +53,7 @@ Quill.register({
 
   'attributors/style/align': AlignStyle,
   'attributors/style/background': BackgroundStyle,
+  'attributors/style/blockBackground': BlockBackgroundStyle,
   'attributors/style/color': ColorStyle,
   'attributors/style/direction': DirectionStyle,
   'attributors/style/font': FontStyle,
@@ -64,6 +67,7 @@ Quill.register({
   'formats/indent': Indent,
 
   'formats/background': BackgroundStyle,
+  'formats/blockBackground': BlockBackgroundStyle,
   'formats/color': ColorStyle,
   'formats/font': FontClass,
   'formats/size': SizeClass,

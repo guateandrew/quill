@@ -84,8 +84,8 @@ class BaseTheme extends Theme {
           fillSelect(select, ALIGNS);
         }
         return new IconPicker(select, icons.align);
-      } else if (select.classList.contains('ql-background') || select.classList.contains('ql-color') || select.classList.contains('ql-backgroundGlobal')) {
-        let format = (select.classList.contains('ql-background') ? 'background' : (select.classList.contains('ql-color') ? 'color' : 'backgroundGlobal'));
+      } else if (select.classList.contains('ql-background') || select.classList.contains('ql-color') || select.classList.contains('ql-blockBackground')) {
+        let format = (select.classList.contains('ql-background') ? 'background' : (select.classList.contains('ql-color') ? 'color' : 'blockBackground'));
         if (select.querySelector('option') == null) {
           fillSelect(select, COLORS, format === 'background' ? '#ffffff' : '#000000');
         }
