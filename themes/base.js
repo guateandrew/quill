@@ -85,7 +85,7 @@ class BaseTheme extends Theme {
         }
         return new IconPicker(select, icons.align);
       } else if (select.classList.contains('ql-background') || select.classList.contains('ql-color') || select.classList.contains('ql-backgroundGlobal')) {
-        let format = select.classList.contains('ql-background') ? 'background' : 'color';
+        let format = (select.classList.contains('ql-background') ? 'background' : (select.classList.contains('ql-color') ? 'color' : 'block-background'));
         if (select.querySelector('option') == null) {
           fillSelect(select, COLORS, format === 'background' ? '#ffffff' : '#000000');
         }
