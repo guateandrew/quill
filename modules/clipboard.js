@@ -7,6 +7,7 @@ import Module from '../core/module';
 
 import { AlignAttribute, AlignStyle } from '../formats/align';
 import { BackgroundStyle } from '../formats/background';
+import { BlockBackgroundStyle } from '../formats/blockBackground';
 import CodeBlock from '../formats/code';
 import { ColorStyle } from '../formats/color';
 import { DirectionAttribute, DirectionStyle } from '../formats/direction';
